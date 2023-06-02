@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 025</title>
+    <script defer src="ex025.js"></script>
+    <link rel="stylesheet" href="ex025.css">
+</head>
+<body>
+    <header>
+        <h1> Cadastro de Usuários </h1>
+    </header>
+
+    <section>
+
+        <label for=""> Nome </label>
+        <input type="text" id="nome" placeholder="Digite o seu nome">
+
+        <br>
+
+        <label for=""> Usuário </label>
+        <input type="text" id="login" placeholder="Digite o seu login">
+
+        <br>
+
+        <label for=""> Senha </label>
+        <input type="password" id="senha" placeholder="Digite sua senha">
+
+        <br>
+
+        <label for=""> Confirmar senha </label>
+        <input type="password" id="confirmarSenha" placeholder="Confirme sua senha">
+
+        <br>
+
+        <button onclick="CadastrarUsuario()"> Cadastrar Usuário </button>
+
+        <button onclick="Login()"> Login </button>
+        
+        <h2> Lista de Usuários Cadastrados </h2>
+
+        <div id="resultado"> </div>
+
+        <br>
+
+    </section>
+
+    <footer>
+        Sesi / Senai - Curso Desenvolvimento de Sistemas
+    </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 003</title>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+        button {
+            padding: 20px;
+            background-color: darkslategray;
+            color: aliceblue;
+        }
+        button:hover {
+            background-color: lightslategrey;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1> Somador de números </h1>
+    <button onclick="botaosoma()"> Clique aqui para somar </button>
+    <p> Clique no botão acima para somar </p>
+
+</body>
+
+    <script>
+        function botaosoma(){
+            var nr1 = prompt("Digite um número:")
+            var nr2 = prompt("Digite outro número:")
+
+            var soma = nr1 + nr2
+            
+            nr1 = Number(nr1)
+            nr2 = Number(nr2)
+
+            console.log (nr1 + nr2)
+        }
+    </script>                
+</html>

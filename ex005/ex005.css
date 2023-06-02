@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background-color: aliceblue;
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgb(59, 106, 194);
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+}
+
+.h1-resul {
+    margin-top: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}

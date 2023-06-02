@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 022</title>
+    <script src="ex022.js"></script>
+    <link rel="stylesheet" href="ex022.css">
+</head>
+<body>
+    <header>
+        <h1> Lista de Filmes no Vetor </h1>
+    </header>
+
+    <section>
+
+        <label for=""> Nome do Filme </label>
+        <input type="text" id="nomefilme" placeholder="Digite o nome do filme">
+
+        <br>
+
+        <label for=""> Link da imagem </label>
+        <input type="text" id="imagem" placeholder="Informe o link da imagem">
+
+        <br>
+
+        <button onclick="CadastrarFilmes()"> Cadastrar Filmes </button>
+
+        <button onclick="IndicarFilme()"> Indicar Filme </button>
+        
+        <button onclick="Limpar()"> Limpar </button>
+
+        <p id="indicar"> </p>
+        
+        <h2> Resultados </h2>
+
+        <div id="resultado" class="filmes"> </div>
+
+        <br>
+
+    </section>
+
+    <footer>
+        Sesi / Senai - Curso Desenvolvimento de Sistemas
+    </footer>
+</body>
+</html>

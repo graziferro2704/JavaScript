@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 004</title>
+    <style>
+        button {
+            padding: 10px;
+            background-color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1> Registro de visitas </h1>
+    <button onclick="botaocadas()"> Cadastra nova pessoa </button>
+    <p id="novo-nome"> Pessoas que passaram por aqui...</p>
+</body>
+
+    <script>
+        function botaocadas(){
+            var nome = prompt("Nome da nova pessoa")
+
+        document.getElementById("novo-nome").innerHTML +=
+            `<br> &#x1F596 Acabei de cadastrar <strong>${nome}</strong> no sistema` 
+        }
+    </script>
+</html>

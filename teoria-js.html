@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria JavaScript</title>
+    <script src="teoria.js"> </script>
+    <style>
+        body {
+            background-color: lightcoral;
+        }
+        button {
+            padding: 10px;
+            margin: 10px;
+            background-color: darkred;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h1> Teoria de JavaScript </h1>
+    <!-- O nome da função no onclick precisa ser igual a da função JS -->
+    <button onclick="Botao1()"> Botão </button>
+    <button onclick="BotaoCorFundo()"> Alterar cor de fudo </button>
+    <button onclick="BotaoNome()"> Qual é o seu nome? </button>
+    <br>
+    <button onclick="BotaoSomar()"> Somando Números </button>
+    <p id="res-soma"> Resultado </p>
+
+    <input type="text" id="cidade" placeholder="Digite uma cidade">
+    <button onclick="BotaoCidade()"> Cidade digitada </button>
+    <p id="resultadoCidade"> Aqui exiberemos nossas cidades </p>                                                            
+
+</body>
+</html>
